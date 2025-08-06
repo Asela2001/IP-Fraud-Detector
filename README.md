@@ -1,81 +1,155 @@
-IP Fraud Detection System
+🕵️‍♂️ IP Fraud Detection System
+A web-based solution to detect potentially fraudulent IP addresses using machine learning and real-time geolocation data.
 
-Project Overview
+📌 Project Overview
+This project implements an IP Fraud Detection System with:
 
-This project implements a web-based IP Fraud Detection System designed to identify potentially fraudulent IP addresses using machine learning. The system includes a Minimum Viable Product (MVP) with a trained RandomForestClassifier model, a Flask web application, and an admin panel for monitoring and managing IP checks. The application fetches IP details from the ip-api.com API, predicts fraud status, and allows admins to flag suspicious IPs.
-Setup Instructions
-Prerequisites
+✅ A trained RandomForestClassifier model
 
-Python 3.8+
-Git
+🌐 A Flask web application
 
-Installation
+🔐 An Admin Panel for managing and monitoring IP checks
 
-Clone the Repository:
+📡 Integration with ip-api.com for IP geolocation data
+
+Admins can view reports, flag suspicious IPs, and visualize prediction trends via an interactive dashboard.
+
+🚀 Setup Instructions
+✅ Prerequisites
+🐍 Python 3.8+
+
+🧬 Git
+
+📥 Installation
+Clone the Repository
+
+
 git clone https://github.com/your-username/ip-fraud-detector.git
 cd ip-fraud-detector
 
+Create a Virtual Environment
 
-Create a Virtual Environment:
+
 python -m venv venv
+Activate the Environment
+
+Windows (PowerShell):
+
+.\venv\Scripts\Activate.ps1
+Your terminal prompt should now show (venv).
+
+Install Dependencies
 
 
-Activate it (Windows PowerShell):.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+🧠 Prepare Model Files
+Run dataset_creation.ipynb to generate dataset.csv.
+
+Run model_training.ipynb to train the model and create:
+
+ip_fraud_detection_model.pkl
+
+label_encoders.pkl
+
+Place these files in the model/ directory.
+
+▶️ Run the Application
+Navigate to the backend:
 
 
-Your terminal prompt should show (venv).
+cd backend
+Start the Flask server:
 
-
-Install Dependencies:
-
-Install required packages from requirements.txt:pip install -r requirements.txt
-
-
-
-
-Prepare Model Files:
-
-Run model_training.ipynb with dataset.csv (from dataset_creation.ipynb) to generate ip_fraud_detection_model.pkl and label_encoders.pkl.
-Place these files in the model/ folder.
-
-
-Run the Application:
-
-Start the Flask app:
-cd \backend
 python app.py
+Open your browser and visit:
 
 
-Access the app at http://localhost:5000.
+http://localhost:5000
+💻 Usage
+🌍 Main Page
+Enter an IP address (e.g., 8.8.8.8)
+
+Click Check IP to view its fraud status
+
+🛡️ Admin Panel
+Visit: http://localhost:5000/admin/login
+
+Login Credentials:
+
+Username: admin
+
+Password: password
+
+After login, visit:
 
 
+http://localhost:5000/admin/dashboard
+Here you can:
 
-Usage
+View all IP check logs
 
-Main Page: Enter an IP address (e.g., 8.8.8.8) to check its fraud status.
-Admin Panel:
-Go to http://localhost:5000/admin/login.
-Log in with username admin and password password.
-View the dashboard at http://localhost:5000/admin/dashboard to see IP checks, flag IPs, and view a pie chart of predictions.
+Flag/unflag suspicious IPs
 
+View prediction stats via pie charts (powered by Chart.js)
 
+🧪 Model Details
+Algorithm: RandomForestClassifier
 
-Model Explanation
+Features Used:
 
-Model: A RandomForestClassifier trained on a dataset of IP addresses labeled as safe (0) or suspicious (1).
-Features: Includes IP octets (numerical), country, ISP, organization, and timezone (encoded using LabelEncoder).
-Training: Performed with hyperparameter tuning via GridSearchCV, saved as ip_fraud_detection_model.pkl. Label encoders are saved as label_encoders.pkl.
-Performance: Evaluated with accuracy and classification metrics (details in model_training.ipynb).
+IP Octets (numeric)
 
-Team Roles
+Country
 
-Team Member: Developed the initial MVP, including dataset creation (dataset_creation.ipynb), model training (model_training.ipynb), and basic web app (app.py, index.html, script.js, style.css).
-You: Enhanced the web application with an admin panel (login system, dashboard, flagging functionality, Chart.js visualization) and improved the user interface (input validation, error messages, styling).
+ISP
 
-Notes
+Organization
 
-Security: The admin login uses hardcoded credentials (admin/password) for simplicity. For production, replace with a secure authentication system.
-Dependencies: Ensure all required packages are installed as listed in requirements.txt.
-Database: The SQLite database (ip_checks.db) is created automatically and excluded from version control.
-Excluded Files: The venv/ folder and model files are not included in the repository; users must generate them locally.
-Last Updated: August 06, 2025, 10:05 PM +0530.
+Timezone
+
+Encoding: Categorical features encoded via LabelEncoder
+
+Training:
+
+Hyperparameter tuning with GridSearchCV
+
+Model saved as: ip_fraud_detection_model.pkl
+
+Encoders saved as: label_encoders.pkl
+
+Evaluation:
+
+Accuracy and classification metrics
+
+See model_training.ipynb for details
+
+👥 Team Roles
+👤 Team Member:
+
+Created MVP
+
+Built dataset_creation.ipynb, model_training.ipynb
+
+Developed initial web app: app.py, index.html, script.js, style.css
+
+👨‍💻 You:
+
+Built Admin Panel: Login system, dashboard, flagging
+
+Enhanced UI/UX: Input validation, error messages, better styling
+
+Integrated Chart.js for data visualization
+
+⚠️ Notes
+🔒 Security: Login uses hardcoded credentials for simplicity.
+Replace with a secure authentication system before production.
+
+📦 Dependencies: All required packages are in requirements.txt
+
+🗃️ Database: SQLite DB (ip_checks.db) is auto-created and .gitignored
+
+❌ Excluded:
+
+venv/ directory
+
+Model files (*.pkl) must be generated locally
