@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Fraud Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>IP Fraud Detection</span>
+            </div>
+            <a href="{{ url_for('admin_login') }}" class="admin-link">
+                <i class="fas fa-user-shield"></i>
+                Admin Login
+            </a>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Advanced IP Fraud Detection</span>
+                    <br>
+                    <span class="subtitle">Real-time Security Analysis</span>
+                </h1>
+                <p class="hero-description">
+                    Protect your network with our state-of-the-art IP address analysis system. 
+                    Get instant fraud detection results with comprehensive threat intelligence.
+                </p>
+            </div>
+        </div>
+
+        <div class="detection-card">
+            <div class="card-header">
+                <h2>
+                    <i class="fas fa-search"></i>
+                    IP Address Analysis
+                </h2>
+                <p>Enter an IP address to analyze potential fraud risks</p>
+            </div>
+            
+            <div class="input-section">
+                <div class="input-group">
+                    <div class="input-wrapper">
+                        <input type="text" id="ip" placeholder="Enter IP address (e.g., 8.8.8.8)" autocomplete="off">
+                        <div class="input-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                    </div>
+                    <button onclick="checkIP()" class="check-btn">
+                        <span class="btn-text">Analyze IP</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div id="error" class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="loading-section" id="loading">
+                <div class="loading-animation">
+                    <div class="scanner-line"></div>
+                    <div class="loading-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <p>Analyzing IP address security profile...</p>
+                <div class="loading-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+
+            <div id="result" class="result-section">
+                <div class="result-header">
+                    <h3 id="result-title">Analysis Results</h3>
+                    <div class="confidence-badge" id="confidence"></div>
+                </div>
+                <div class="result-content" id="details"></div>
+            </div>
+        </div>
+
+        <div class="features-section">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Real-time Analysis</h3>
+                    <p>Instant fraud detection with advanced algorithms</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Coverage</h3>
+                    <p>Comprehensive threat intelligence worldwide</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Detailed risk assessment and reporting</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

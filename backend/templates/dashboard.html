@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - IP Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-background">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+
+    <nav class="dashboard-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>Admin Dashboard</span>
+            </div>
+            <div class="nav-actions">
+                <a href="{{ url_for('home') }}" class="nav-btn">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+                <a href="{{ url_for('admin_logout') }}" class="nav-btn logout-btn">
+                    <i class="fas fa-sign-out-alt"></i>
+                    Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard-main">
+        <div class="dashboard-header">
+            <h1>
+                <i class="fas fa-chart-line"></i>
+                Security Analytics Dashboard
+            </h1>
+            <p>Monitor and manage IP fraud detection results</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card safe-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>{{ safe_count }}</h3>
+                    <p>Safe IPs</p>
+                </div>
+            </div>
+            <div class="stat-card fraud-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>{{ fraud_count }}</h3>
+                    <p>Fraud IPs</p>
+                </div>
+            </div>
+            <div class="stat-card total-stat">
+                <div class="stat-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>{{ safe_count + fraud_count }}</h3>
+                    <p>Total Checks</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h2>
+                        <i class="fas fa-pie-chart"></i>
+                        Detection Distribution
+                    </h2>
+                </div>
+                <div class="chart-container">
+                    <canvas id="ipChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-section">
+            <div class="table-card">
+                <div class="table-header">
+                    <h2>
+                        <i class="fas fa-list"></i>
+                        Recent IP Checks
+                    </h2>
+                    <div class="table-controls">
+                        <input type="search" placeholder="Search IPs..." class="search-input">
+                        <button class="filter-btn">
+                            <i class="fas fa-filter"></i>
+                            Filter
+                        </button>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>IP Address</th>
+                                <th>Result</th>
+                                <th>Confidence</th>
+                                <th>Location</th>
+                                <th>ISP</th>
+                                <th>Organization</th>
+                                <th>Timezone</th>
+                                <th>Status</th>
+                                <th>Timestamp</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for check in ip_checks %}
+                            <tr class="table-row {{ 'fraud-row' if check[2] == 'Fraud' else 'safe-row' }}">
+                                <td class="id-cell">{{ check[0] }}</td>
+                                <td class="ip-cell">
+                                    <span class="ip-address">{{ check[1] }}</span>
+                                </td>
+                                <td class="result-cell">
+                                    <span class="result-badge {{ 'fraud-badge' if check[2] == 'Fraud' else 'safe-badge' }}">
+                                        <i class="fas {{ 'fa-exclamation-triangle' if check[2] == 'Fraud' else 'fa-check-circle' }}"></i>
+                                        {{ check[2] }}
+                                    </span>
+                                </td>
+                                <td class="confidence-cell">
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" style="width: {{ (check[3] * 100)|round }}%"></div>
+                                        <span class="confidence-text">{{ (check[3] * 100)|round(2) }}%</span>
+                                    </div>
+                                </td>
+                                <td class="location-cell">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    {{ check[4] }}
+                                </td>
+                                <td class="isp-cell">{{ check[5] }}</td>
+                                <td class="org-cell">{{ check[6] }}</td>
+                                <td class="timezone-cell">{{ check[7] }}</td>
+                                <td class="status-cell">
+                                    <span class="status-badge {{ 'flagged' if check[8] else 'normal' }}">
+                                        <i class="fas {{ 'fa-flag' if check[8] else 'fa-circle' }}"></i>
+                                        {{ 'Flagged' if check[8] else 'Normal' }}
+                                    </span>
+                                </td>
+                                <td class="timestamp-cell">
+                                    <span class="timestamp">{{ check[9] }}</span>
+                                </td>
+                                <td class="action-cell">
+                                    <form method="POST" action="{{ url_for('flag_ip', ip_id=check[0]) }}">
+                                        <button type="submit" class="action-btn {{ 'unflag-btn' if check[8] else 'flag-btn' }}">
+                                            <i class="fas {{ 'fa-flag-slash' if check[8] else 'fa-flag' }}"></i>
+                                            {{ 'Unflag' if check[8] else 'Flag' }}
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Chart
+        var ctx = document.getElementById('ipChart').getContext('2d');
+        var ipChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Safe IPs', 'Fraud IPs'],
+                datasets: [{
+                    data: [{{ safe_count }}, {{ fraud_count }}],
+                    backgroundColor: [
+                        'rgba(16, 185, 129, 0.8)',
+                        'rgba(239, 68, 68, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgb(16, 185, 129)',
+                        'rgb(239, 68, 68)'
+                    ],
+                    borderWidth: 2,
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            usePointStyle: true,
+                            font: {
+                                family: 'Inter',
+                                size: 14
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleColor: 'white',
+                        bodyColor: 'white',
+                        borderColor: 'rgba(255, 255, 255, 0.1)',
+                        borderWidth: 1,
+                        cornerRadius: 8,
+                        font: {
+                            family: 'Inter'
+                        }
+                    }
+                },
+                animation: {
+                    animateRotate: true,
+                    duration: 2000
+                }
+            }
+        });
+
+        // Search functionality
+        document.querySelector('.search-input').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('.table-row');
+            
+            rows.forEach(row => {
+                const ip = row.querySelector('.ip-address').textContent.toLowerCase();
+                const result = row.querySelector('.result-badge').textContent.toLowerCase();
+                const location = row.querySelector('.location-cell').textContent.toLowerCase();
+                
+                if (ip.includes(searchTerm) || result.includes(searchTerm) || location.includes(searchTerm)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        // Add animation on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.stat-card, .chart-card, .table-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    card.style.transition = 'all 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>

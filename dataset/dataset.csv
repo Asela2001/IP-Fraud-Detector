@@ -1,0 +1,369 @@
+ip,country,org,isp,timezone,label
+8.8.8.8,United States,Google Public DNS,Google LLC,America/New_York,0
+1.1.1.1,Australia,APNIC and Cloudflare DNS Resolver project,"Cloudflare, Inc",Australia/Brisbane,0
+9.9.9.9,United States,Quad9,Quad9,America/Los_Angeles,0
+208.67.222.222,United States,"Cisco OpenDNS, LLC","Cisco OpenDNS, LLC",America/Los_Angeles,0
+64.6.64.6,United States,"Vercara, LLC",Neustar Security Services,America/New_York,0
+185.228.168.9,United States,DNS Anycast Cleanbrowsing,Daniel Cid,America/New_York,0
+76.76.2.0,Canada,Controld Inc,Controld Inc.,America/Toronto,0
+94.140.14.14,Cyprus,AdGuard Software Limited,AdGuard Software Limited,Asia/Nicosia,0
+151.101.1.69,United States,"Fastly, Inc.","Fastly, Inc.",America/Los_Angeles,0
+172.217.0.46,United States,Google LLC,Google LLC,America/New_York,0
+23.43.119.135,India,"Akamai International, BV",Akamai Technologies,Asia/Kolkata,0
+13.107.246.40,Canada,Microsoft Corporation,Microsoft Corporation,America/Toronto,0
+104.244.42.129,United States,Twitter Inc,Twitter Inc.,America/Los_Angeles,0
+96.120.0.1,United States,"Comcast IP Services, L.L.C.",Comcast Cable Communications,America/New_York,0
+50.7.253.1,Singapore,FDCservers.net,FDCservers.net,Asia/Singapore,0
+70.38.0.1,Canada,iWeb DNS Servers,iWeb Technologies Inc.,America/Toronto,0
+86.134.0.1,United Kingdom,,BT Public Internet Service,Europe/London,0
+212.159.6.9,United Kingdom,PlusNet Plc,PlusNet plc.,Europe/London,0
+142.114.0.1,Canada,Sympatico HSE,Bell Canada,America/Toronto,0
+24.48.0.1,Canada,Videotron Ltee,Le Groupe Videotron Ltee,America/Toronto,0
+185.69.0.1,Oman,Blockchain Solutions and Services LLC,OCITOKEN,Asia/Muscat,0
+217.0.0.1,Germany,Deutsche Telekom AG,Deutsche Telekom AG,Europe/Berlin,0
+133.130.0.1,Japan,"GMO Internet, Inc.",interQ,Asia/Tokyo,0
+203.178.0.1,Japan,,JPNIC,Asia/Tokyo,0
+49.207.0.1,India,Beam Telecom Pvt Ltd,Atria Convergence Technologies Pvt. Ltd.,Asia/Kolkata,0
+117.194.0.1,India,,Bharat Sanchar Nigam Ltd,Asia/Kolkata,0
+80.10.246.129,France,PFS Orange Internet,PFS-ORANGE-INTERNET,Europe/Paris,0
+213.36.0.1,France,FR.None / Free SAS,Free SAS,Europe/Paris,0
+203.221.0.1,Australia,TPG Internet Pty Ltd,TPG Internet Pty Ltd,Australia/Sydney,0
+121.200.0.1,Australia,,Wideband Networks Pty Ltd,Australia/Melbourne,0
+41.215.0.1,Kenya,African Trade Insurance Agency,Accesskenya Group LTD Network,Africa/Nairobi,0
+105.112.0.1,Nigeria,Airtel Networks Limited,Airtel Networks Limited,Africa/Lagos,0
+128.97.27.37,United States,"University of California, Los Angeles","University of California, Los Angeles",America/Los_Angeles,0
+18.9.22.69,United States,Massachusetts Institute of Technology,Massachusetts Institute of Technology,America/New_York,0
+137.132.21.27,Singapore,National University of Singapore,National University of Singapore,Asia/Singapore,0
+129.2.0.1,United States,University of Maryland,University of Maryland,America/New_York,0
+202.41.85.1,India,,ERNET India,Asia/Kolkata,0
+131.111.8.42,United Kingdom,University of Cambridge,RIPE Network Coordination Centre,Europe/London,0
+209.85.231.104,United States,Google LLC,Google LLC,America/Los_Angeles,0
+154.11.10.7,Canada,TELUS Communications Inc,TELUS Communications Inc.,America/Vancouver,0
+195.113.144.194,Czechia,CESNET-TCZ,CESNET z.s.p.o,Europe/Prague,0
+192.168.1.2,Unknown,Unknown,Unknown,Unknown,0
+10.0.0.2,Unknown,Unknown,Unknown,Unknown,0
+172.16.0.2,Unknown,Unknown,Unknown,Unknown,0
+104.16.123.96,Canada,"Cloudflare, Inc.","Cloudflare, Inc.",America/Toronto,0
+151.101.1.140,Error,Error,Error,Error,0
+74.125.140.27,Error,Error,Error,Error,0
+157.240.22.35,Error,Error,Error,Error,0
+185.199.108.154,Error,Error,Error,Error,0
+203.116.0.1,Error,Error,Error,Error,0
+189.59.0.1,Error,Error,Error,Error,0
+187.75.0.1,Error,Error,Error,Error,0
+213.81.0.1,Error,Error,Error,Error,0
+213.180.193.3,Error,Error,Error,Error,0
+95.213.0.1,Error,Error,Error,Error,0
+23.43.119.135,Error,Error,Error,Error,0
+151.101.1.69,Error,Error,Error,Error,0
+185.199.108.153,Error,Error,Error,Error,0
+13.107.246.40,Error,Error,Error,Error,0
+104.244.42.129,United States,Twitter Inc,Twitter Inc.,America/Los_Angeles,0
+192.0.2.1,Unknown,Unknown,Unknown,Unknown,0
+198.51.100.1,Romania,TEST-NET-2 RFC5737,TEST-NET-2,Europe/Bucharest,0
+203.0.113.1,country,TEST-NET-3 RFC5737,TEST-NET-3,Etc/Timezone,0
+8.8.8.8,United States,Google Public DNS,Google LLC,America/New_York,0
+8.8.4.4,United States,Google Public DNS,Google LLC,America/New_York,0
+1.1.1.1,Australia,APNIC and Cloudflare DNS Resolver project,"Cloudflare, Inc",Australia/Brisbane,0
+1.0.0.1,Australia,APNIC and Cloudflare DNS Resolver project,"Cloudflare, Inc",Australia/Brisbane,0
+9.9.9.9,United States,Quad9,Quad9,America/Los_Angeles,0
+149.112.112.112,United States,Quad9,Quad9,America/Los_Angeles,0
+208.67.222.222,United States,"Cisco OpenDNS, LLC","Cisco OpenDNS, LLC",America/Los_Angeles,0
+208.67.220.220,United States,"Cisco OpenDNS, LLC","Cisco OpenDNS, LLC",America/Los_Angeles,0
+64.6.64.6,United States,"Vercara, LLC",Neustar Security Services,America/New_York,0
+64.6.65.6,United States,"Vercara, LLC",Neustar Security Services,America/New_York,0
+185.228.168.9,United States,DNS Anycast Cleanbrowsing,Daniel Cid,America/New_York,0
+185.228.169.9,Spain,DNS Anycast Cleanbrowsing Secondary,Daniel Cid,Europe/Madrid,0
+76.76.2.0,Canada,Controld Inc,Controld Inc.,America/Toronto,0
+76.76.10.0,Canada,Controld Inc,Controld Inc.,America/Toronto,0
+94.140.14.14,Cyprus,AdGuard Software Limited,AdGuard Software Limited,Asia/Nicosia,0
+94.140.15.15,Cyprus,AdGuard Software Limited,AdGuard Software Limited,Asia/Nicosia,0
+203.80.96.10,Hong Kong,Hong Kong Broadband Network Limited,Hong Kong Broadband Network Ltd,Asia/Hong_Kong,0
+202.179.128.10,Australia,X INTEGRATION PTY LTD,Leaptel,Australia/Melbourne,0
+210.48.222.5,Malaysia,International Islamic University Of Malaysia,International Islamic University Of Malaysia,Asia/Kuala_Lumpur,0
+103.10.124.1,United States,Valve Corporation,Valve Corporation,America/Los_Angeles,0
+202.56.230.5,India,Bharti Airtel,Bharti Airtel Limited,Asia/Kolkata,0
+213.180.193.3,Russia,Yandex LLC,Yandex network,Europe/Moscow,0
+203.97.33.14,New Zealand,,VODAFONE,Pacific/Auckland,0
+185.107.80.231,The Netherlands,NForce Entertainment B.V,NFOrce Entertainment BV,Europe/Amsterdam,0
+91.239.100.100,Denmark,UNCENSOREDDNS,Thomas Steen Rasmussen,Europe/Copenhagen,0
+176.103.130.130,Cyprus,AdGuard Software Limited,AdGuard Software Limited,Asia/Nicosia,0
+114.114.114.114,China,"NanJing XinFeng Information Technologies, Inc.",China Unicom Shandong Province network,Asia/Shanghai,0
+223.5.5.5,China,"Aliyun Computing Co., LTD",Hangzhou Alibaba Advertising Co,Asia/Shanghai,0
+223.6.6.6,China,"Aliyun Computing Co., LTD",Hangzhou Alibaba Advertising Co,Asia/Shanghai,0
+151.101.1.69,United States,"Fastly, Inc.","Fastly, Inc.",America/Los_Angeles,0
+13.107.21.200,Canada,Microsoft Corporation,Microsoft Corporation,America/Toronto,0
+151.101.129.140,United States,"Fastly, Inc.","Fastly, Inc.",America/Los_Angeles,0
+172.217.10.78,United States,Google LLC,Google LLC,America/New_York,0
+23.216.10.50,United States,"Akamai Technologies, Inc.",Akamai International B.V.,America/Los_Angeles,0
+23.43.119.135,India,"Akamai International, BV",Akamai Technologies,Asia/Kolkata,0
+185.199.108.153,United States,"GitHub, Inc","Fastly, Inc.",America/Los_Angeles,0
+128.208.3.136,United States,University of Washington,University of Washington,America/Los_Angeles,0
+18.7.22.69,United States,Massachusetts Institute of Technology,Massachusetts Institute of Technology,America/New_York,0
+192.231.203.132,Australia,Internode,iiNet Limited,Australia/Adelaide,0
+193.51.240.1,France,Renater,Renater,Europe/Paris,0
+137.132.21.27,Singapore,National University of Singapore,National University of Singapore,Asia/Singapore,0
+128.6.4.7,Error,Error,Error,Error,0
+137.138.16.164,Error,Error,Error,Error,0
+129.250.35.250,Error,Error,Error,Error,0
+209.85.231.104,Error,Error,Error,Error,0
+154.11.10.7,Error,Error,Error,Error,0
+195.113.144.194,Error,Error,Error,Error,0
+192.168.1.1,Error,Error,Error,Error,0
+192.168.0.1,Error,Error,Error,Error,0
+10.0.0.1,Error,Error,Error,Error,0
+172.16.0.1,Error,Error,Error,Error,0
+104.16.123.96,Error,Error,Error,Error,0
+151.101.1.140,Error,Error,Error,Error,0
+74.125.140.27,Error,Error,Error,Error,0
+157.240.22.35,Error,Error,Error,Error,0
+185.199.108.154,United States,"GitHub, Inc","Fastly, Inc.",America/Chicago,0
+104.244.42.129,United States,Twitter Inc,Twitter Inc.,America/Los_Angeles,0
+2606:4700:4700::1111,Canada,"Cloudflare, Inc.","Cloudflare, Inc.",America/Toronto,0
+2001:4860:4860::8888,United States,Google LLC,Google LLC,America/Los_Angeles,0
+2620:fe::fe,United States,Quad9,Quad9,America/Los_Angeles,0
+96.120.0.1,United States,"Comcast IP Services, L.L.C.",Comcast Cable Communications,America/New_York,0
+50.7.253.1,Singapore,FDCservers.net,FDCservers.net,Asia/Singapore,0
+70.38.0.1,Canada,iWeb DNS Servers,iWeb Technologies Inc.,America/Toronto,0
+172.217.0.46,United States,Google LLC,Google LLC,America/New_York,0
+86.134.0.1,United Kingdom,,BT Public Internet Service,Europe/London,0
+212.159.6.9,United Kingdom,PlusNet Plc,PlusNet plc.,Europe/London,0
+142.114.0.1,Canada,Sympatico HSE,Bell Canada,America/Toronto,0
+24.48.0.1,Canada,Videotron Ltee,Le Groupe Videotron Ltee,America/Toronto,0
+185.69.0.1,Oman,Blockchain Solutions and Services LLC,OCITOKEN,Asia/Muscat,0
+217.0.0.1,Germany,Deutsche Telekom AG,Deutsche Telekom AG,Europe/Berlin,0
+133.130.0.1,Japan,"GMO Internet, Inc.",interQ,Asia/Tokyo,0
+203.178.0.1,Japan,,JPNIC,Asia/Tokyo,0
+49.207.0.1,India,Beam Telecom Pvt Ltd,Atria Convergence Technologies Pvt. Ltd.,Asia/Kolkata,0
+117.194.0.1,India,,Bharat Sanchar Nigam Ltd,Asia/Kolkata,0
+80.10.246.129,France,PFS Orange Internet,PFS-ORANGE-INTERNET,Europe/Paris,0
+213.36.0.1,France,FR.None / Free SAS,Free SAS,Europe/Paris,0
+203.221.0.1,Australia,TPG Internet Pty Ltd,TPG Internet Pty Ltd,Australia/Sydney,0
+121.200.0.1,Australia,,Wideband Networks Pty Ltd,Australia/Melbourne,0
+41.215.0.1,Kenya,African Trade Insurance Agency,Accesskenya Group LTD Network,Africa/Nairobi,0
+105.112.0.1,Nigeria,Airtel Networks Limited,Airtel Networks Limited,Africa/Lagos,0
+128.97.27.37,United States,"University of California, Los Angeles","University of California, Los Angeles",America/Los_Angeles,0
+18.9.22.69,United States,Massachusetts Institute of Technology,Massachusetts Institute of Technology,America/New_York,0
+137.132.21.27,Singapore,National University of Singapore,National University of Singapore,Asia/Singapore,0
+129.2.0.1,United States,University of Maryland,University of Maryland,America/New_York,0
+202.41.85.1,India,,ERNET India,Asia/Kolkata,0
+131.111.8.42,United Kingdom,University of Cambridge,RIPE Network Coordination Centre,Europe/London,0
+91.239.100.100,Denmark,UNCENSOREDDNS,Thomas Steen Rasmussen,Europe/Copenhagen,0
+176.103.130.131,Cyprus,AdGuard Software Limited,AdGuard Software Limited,Asia/Nicosia,0
+64.6.64.6,United States,"Vercara, LLC",Neustar Security Services,America/New_York,0
+185.228.168.9,United States,DNS Anycast Cleanbrowsing,Daniel Cid,America/New_York,0
+202.166.193.1,Nepal,,WorldLink Communications,Asia/Kathmandu,0
+203.116.0.1,Singapore,,STARHUBINTERNET,Asia/Singapore,0
+189.59.0.1,Brazil,TELEF�NICA BRASIL S.A,Vivo,America/Sao_Paulo,0
+187.75.0.1,Brazil,TELEF�NICA BRASIL S.A,Vivo,America/Sao_Paulo,0
+213.81.0.1,United Kingdom,TalkTalk,Virgin Media Limited,Europe/London,0
+213.180.193.3,Russia,Yandex LLC,Yandex network,Europe/Moscow,0
+95.213.0.1,Russia,VKontakte Ltd,VKONTAKTE SPB Network extra,Europe/Moscow,0
+23.43.119.135,India,"Akamai International, BV",Akamai Technologies,Asia/Kolkata,0
+151.101.1.69,United States,"Fastly, Inc.","Fastly, Inc.",America/Los_Angeles,0
+185.199.108.153,United States,"GitHub, Inc","Fastly, Inc.",America/Los_Angeles,0
+13.107.246.40,Error,Error,Error,Error,0
+104.244.42.129,Error,Error,Error,Error,0
+192.168.1.2,Error,Error,Error,Error,0
+10.0.0.2,Error,Error,Error,Error,0
+172.16.0.2,Error,Error,Error,Error,0
+101.44.80.75,Error,Error,Error,Error,1
+102.165.41.29,Error,Error,Error,Error,1
+102.165.5.32,Error,Error,Error,Error,1
+103.106.228.43,Error,Error,Error,Error,1
+103.115.164.93,Error,Error,Error,Error,1
+103.129.54.185,Error,Error,Error,Error,1
+103.129.54.189,Error,Error,Error,Error,1
+103.137.12.140,Error,Error,Error,Error,1
+103.145.109.174,Indonesia,,PT Gonet Teknologi Indonesia,Asia/Jakarta,1
+103.147.45.79,Hong Kong,"HONGKONG CREJOY TECHOLOGY CO., LIMITED",Global Link Communications Limited,Asia/Hong_Kong,1
+103.148.131.86,Indonesia,PT Tusaba Sinergy Abadi,PT Anugerah Cimanuk Raya,Asia/Jakarta,1
+103.186.68.202,India,Gatik Greenergy PVT LTD,Gatik Greenergy PVT LTD,Asia/Kolkata,1
+103.56.5.79,Philippines,Comfac Corporation,Comfac Corporation,Asia/Manila,1
+103.76.164.9,New Zealand,Daniel Watson,Intergrid Group Pty Ltd,Pacific/Auckland,1
+103.97.2.202,Hong Kong,HK Kwaifong Group Limited,Teleglobal Communication Services Limited,Asia/Hong_Kong,1
+103.97.2.205,Hong Kong,HK Kwaifong Group Limited,Teleglobal Communication Services Limited,Asia/Hong_Kong,1
+104.224.159.55,United States,IT7 Networks Inc,IT7 Networks Inc,America/Los_Angeles,1
+104.225.238.70,United States,Cluster Logic Inc,IT7 Networks Inc,America/Los_Angeles,1
+104.28.108.1,Australia,Cloudflare WARP,"Cloudflare, Inc.",Australia/Perth,1
+104.28.32.121,United States,Cloudflare WARP,"Cloudflare, Inc.",America/Chicago,1
+109.248.147.74,Latvia,SIA RixHost,SIA RixHost,Europe/Riga,1
+109.248.147.78,Latvia,SIA RixHost,SIA RixHost,Europe/Riga,1
+114.134.88.178,Bangladesh,OptiMax Communication Ltd,OptiMax Communication Ltd,Asia/Dhaka,1
+117.53.128.19,Australia,Dcsi,Anycast Holdings PTY LTD,Australia/Melbourne,1
+128.127.151.30,United Kingdom,Hydra Communications Ltd,Hydra Communications Ltd,Europe/London,1
+128.199.25.110,India,"DigitalOcean, LLC","DigitalOcean, LLC",Asia/Kolkata,1
+128.77.64.217,United States,"Palo Alto Networks, Inc",Google LLC,America/Denver,1
+13.211.27.99,Australia,AWS EC2 (ap-southeast-2),Amazon Technologies Inc.,Australia/Sydney,1
+13.54.173.118,Australia,AWS EC2 (ap-southeast-2),Amazon Technologies Inc.,Australia/Sydney,1
+133.201.210.64,Japan,NEC BIGLOBE Ltd.,BIGLOBE Inc.,Asia/Tokyo,1
+134.195.198.220,Canada,GLOBALTELEHOST Corp,GLOBALTELEHOST Corp.,America/Toronto,1
+136.226.98.181,United States,"Zscaler, Inc","ZSCALER, INC.",America/Los_Angeles,1
+138.199.22.168,Japan,Cdn77 TYO,Datacamp Limited,Asia/Tokyo,1
+138.199.22.169,Japan,Cdn77 TYO,Datacamp Limited,Asia/Tokyo,1
+138.199.22.182,Japan,Cdn77 TYO,Datacamp Limited,Asia/Tokyo,1
+138.199.22.183,Japan,Cdn77 TYO,Datacamp Limited,Asia/Tokyo,1
+140.174.82.14,United States,NTT America,"Honest Networks, LLC",America/New_York,1
+143.244.40.243,Japan,Cdn77 TYO,Datacamp Limited,Asia/Tokyo,1
+144.22.176.224,Brazil,Oracle Cloud Infrastructure (sa-saopaulo-1),Oracle Corporation,America/Sao_Paulo,1
+144.48.37.20,Australia,"Ransom IT Infrastructure, For any abuse issues please contact abuse@ransomit.com.au",HostRoyale Technologies Pvt Ltd,Australia/Melbourne,1
+145.79.196.12,United States,Packethub S.A,PacketHub S.A.,America/New_York,1
+146.177.64.116,United Kingdom,Rackspace Ltd,Rackspace,Europe/London,1
+146.70.103.47,Norway,M247 LTD,M247 Europe Infra,Europe/Oslo,1
+146.75.154.146,United States,iCloud Private Relay,"Fastly, Inc.",America/Los_Angeles,1
+149.102.236.217,Spain,Datacamp Limited,Datacamp Limited,Europe/Madrid,1
+149.54.247.155,Japan,"ITEC Hankyu Hanshin Co., Ltd.","ITEC HANKYU HANSHIN CO., LTD.",Asia/Tokyo,1
+149.87.141.143,Japan,,Wisdom Cloud Internet Technology Pte. Ltd.,Asia/Tokyo,1
+15.158.55.76,Spain,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Europe/Madrid,1
+15.204.58.97,United States,OVH US LLC,OVH SAS,America/Los_Angeles,1
+151.186.182.103,United States,CIE,"Amazon.com, Inc.",America/New_York,1
+152.89.204.179,United States,Packethub S.A,Clouvider Limited,America/Los_Angeles,1
+153.121.76.18,Japan,SAKURA,SAKURA Internet Inc.,Asia/Tokyo,1
+154.12.177.152,Hong Kong,,DMIT Cloud Services,Asia/Hong_Kong,1
+154.19.242.17,Error,Error,Error,Error,1
+154.23.243.39,Error,Error,Error,Error,1
+154.38.173.62,Error,Error,Error,Error,1
+155.94.236.73,Error,Error,Error,Error,1
+156.146.35.163,Error,Error,Error,Error,1
+156.246.247.101,Error,Error,Error,Error,1
+156.59.50.216,Error,Error,Error,Error,1
+157.173.203.151,Error,Error,Error,Error,1
+158.247.235.235,Error,Error,Error,Error,1
+16.170.23.126,Error,Error,Error,Error,1
+16.62.245.28,Error,Error,Error,Error,1
+160.30.128.83,Error,Error,Error,Error,1
+162.120.202.45,Error,Error,Error,Error,1
+162.245.206.242,Error,Error,Error,Error,1
+162.252.93.235,Canada,Rural Wave,Rural Wave,America/Toronto,1
+163.116.144.102,United States,Netskope BOS,Netskope Inc,America/New_York,1
+163.5.171.126,United States,Ionis,Proton AG,America/New_York,1
+165.22.103.98,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC",Asia/Singapore,1
+165.225.242.248,United States,"Zscaler, Inc.","ZSCALER, INC.",America/Los_Angeles,1
+167.94.196.14,Canada,iTel Networks Inc,iTel Networks Inc,America/Toronto,1
+172.98.68.244,Canada,Total server solutions,Performive LLC,America/Toronto,1
+173.239.194.46,Australia,,LogicWeb Inc.,Australia/Melbourne,1
+173.239.224.93,United States,,LogicWeb Inc,America/Chicago,1
+173.245.209.39,Australia,NETPR-SYD-GD,Netprotect,Australia/Sydney,1
+173.255.175.12,Mexico,NetProtect LLC,"Overplay, Inc",America/Mexico_City,1
+174.138.84.205,United States,Digital Ocean,"DigitalOcean, LLC",America/New_York,1
+176.110.218.9,United States,Micron Hosting,GSL Networks Pty LTD,America/Detroit,1
+176.123.224.208,Kyrgyzstan,LLC I-SPACE,ispaceroute,Asia/Bishkek,1
+178.132.106.32,France,Packethub S.A,PacketHub S.A.,Europe/Paris,1
+178.175.140.149,Moldova,Trabia SRL,Trabia SRL,Europe/Chisinau,1
+179.61.197.95,Canada,Ipxo,Cogent Communications,America/Toronto,1
+18.142.195.29,Singapore,AWS EC2 (ap-southeast-1),Amazon Technologies Inc.,Asia/Singapore,1
+18.206.34.84,United States,AWS EC2 (us-east-1),"Amazon.com, Inc.",America/New_York,1
+18.68.16.77,Australia,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Australia/Melbourne,1
+18.68.59.10,South Africa,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Africa/Johannesburg,1
+18.68.61.55,Australia,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Australia/Perth,1
+181.214.117.73,United States,Internet Utilities Europe and Asia Limited,Hivelocity Inc,America/New_York,1
+185.161.202.52,Germany,Packethub S.A,PacketHub S.A.,Europe/Berlin,1
+185.169.0.9,United States,Packethub S.A,PacketHub S.A.,America/Los_Angeles,1
+185.169.231.244,United States,"Karolio IT paslaugos, UAB",Jurgita Jurgaitienei trading as LOCOTORPI,America/Los_Angeles,1
+185.172.52.135,United States,Packethub S.A,PacketHub S.A.,America/Chicago,1
+185.198.240.131,United States,"VPN Consumer New Jersey, United States of America",Clouvider Limited,America/New_York,1
+185.199.101.140,Canada,Packethub S.A,PacketHub S.A.,America/Toronto,1
+185.203.219.42,United States,Packethub S.A,PacketHub S.A.,America/Chicago,1
+185.207.211.234,Germany,,MISAXNET,Europe/Berlin,1
+185.213.83.77,Indonesia,Packethub S.A,PacketHub S.A.,Asia/Jakarta,1
+185.213.83.97,Indonesia,Packethub S.A,PacketHub S.A.,Asia/Jakarta,1
+185.219.141.140,United States,Packethub S.A,PacketHub S.A.,America/Los_Angeles,1
+185.223.152.214,United States,IPXO,Latitude.sh,America/Los_Angeles,1
+185.81.124.98,United States,Packethub S.A,PacketHub S.A.,America/Los_Angeles,1
+191.101.31.62,France,Ipxo,Cogent Communications,Europe/Paris,1
+192.145.117.183,United States,NordVPN,PacketHub S.A.,America/New_York,1
+193.36.224.35,United States,"VPN Consumer Miami, United States",Internet Utilities Europe and Asia Limited,America/New_York,1
+193.42.0.168,United States,Packethub S.A,PacketHub S.A.,America/Chicago,1
+194.110.13.154,United Kingdom,Freedomtech Solutions Ltd,Cogent Communications,Europe/London,1
+194.124.76.65,United States,Packethub S.A,Clouvider Limited,America/New_York,1
+194.242.49.83,United States,Packethub S.A,PacketHub S.A.,America/Chicago,1
+194.35.121.21,Austria,Packethub S.A,PacketHub S.A.,Europe/Vienna,1
+194.5.83.27,Hong Kong,VPN Consumer Hong Kong,GSL Networks Pty LTD,Asia/Hong_Kong,1
+195.158.248.83,Error,Error,Error,Error,1
+195.181.171.227,Error,Error,Error,Error,1
+195.206.107.2,Error,Error,Error,Error,1
+196.210.7.161,Error,Error,Error,Error,1
+2.57.79.243,Error,Error,Error,Error,1
+202.43.6.6,Error,Error,Error,Error,1
+203.188.168.10,Error,Error,Error,Error,1
+208.127.190.57,Error,Error,Error,Error,1
+209.58.162.197,Error,Error,Error,Error,1
+212.102.40.4,Error,Error,Error,Error,1
+212.52.23.78,Error,Error,Error,Error,1
+212.7.209.237,Error,Error,Error,Error,1
+217.138.220.106,Error,Error,Error,Error,1
+217.179.185.135,Error,Error,Error,Error,1
+219.106.128.61,Japan,"ITEC HANSHIN CO., LTD.","ITEC HANKYU HANSHIN CO., LTD.",Asia/Tokyo,1
+23.111.144.219,United States,Hivelocity Ventures Corp,"HIVELOCITY, Inc.",America/New_York,1
+27.131.249.49,Indonesia,SpaceX Starlink,SpaceX Starlink,Asia/Jakarta,1
+3.29.41.80,United Arab Emirates,Amazon Data Services UAE,Amazon Technologies Inc.,Asia/Dubai,1
+31.13.10.49,Sweden,Edgeip NET Dhcp,Gibon Ljungby AB,Europe/Stockholm,1
+31.204.152.102,The Netherlands,i3Dnet nlrtm1,i3D.net B.V,Europe/Amsterdam,1
+34.216.191.69,United States,AWS EC2 (us-west-2),"Amazon.com, Inc.",America/Los_Angeles,1
+35.163.118.200,United States,AWS EC2 (us-west-2),"Amazon.com, Inc.",America/Los_Angeles,1
+37.140.223.97,United States,T.K Bytech LTD,Internet Utilities Europe and Asia Limited,America/Los_Angeles,1
+37.156.216.136,Japan,Rackray DC,UAB Delska Lithuania,Asia/Tokyo,1
+38.107.236.21,United States,H Cloud LLC,Newserverlife LLC,America/Los_Angeles,1
+38.140.250.2,United States,Grand Central Partnership,Cogent Communications,America/New_York,1
+38.244.44.181,United States,NetLab,Cogent Communications,America/Los_Angeles,1
+38.91.101.98,United States,Globaltelehost Corp,GTHost,America/New_York,1
+44.234.224.246,United States,AWS EC2 (us-west-2),"Amazon.com, Inc.",America/Los_Angeles,1
+45.10.152.47,Denmark,Packethub S.A,PacketHub S.A.,Europe/Copenhagen,1
+45.120.125.47,India,,RK Communication,Asia/Kolkata,1
+45.130.83.14,United States,"VPN Consumer New York City, United States of America",Internet Utilities Europe and Asia Limited,America/New_York,1
+45.132.115.94,United States,"VPN Consumer Dallas, United States of America",Latitude.sh,America/Chicago,1
+45.146.54.1,United States,"VPN Consumer San Francisco, United States of America",Internet Utilities Europe and Asia Limited,America/Los_Angeles,1
+45.152.47.138,France,Packethub S.A,PacketHub S.A.,Europe/Paris,1
+45.155.53.146,Switzerland,Alexhost SRL,Alexhost SRL,Europe/Zurich,1
+45.76.110.37,Japan,"Vultr Holdings, LLC",The Constant Company,Asia/Tokyo,1
+45.85.248.80,Norway,Packethub S.A,PacketHub S.A.,Europe/Oslo,1
+45.87.61.31,United States,,Hyonix,America/Los_Angeles,1
+45.88.221.204,Norway,Packethub S.A,PacketHub S.A.,Europe/Oslo,1
+45.91.22.15,France,"VPN Consumer Paris, France",GSL Networks Pty LTD,Europe/Paris,1
+45.92.229.160,United States,"VPN Consumer New York City, United States of America",Internet Utilities Europe and Asia Limited,America/New_York,1
+45.94.208.84,Portugal,Packethub S.A,PacketHub S.A.,Europe/Lisbon,1
+46.233.48.137,Bulgaria,Point 2 Point Ltd.,Point 2 Point Ltd.,Europe/Sofia,1
+47.250.80.222,Malaysia,Alibaba Cloud - MY,Alibaba Cloud LLC,Asia/Kuala_Lumpur,1
+5.181.157.240,Moldova,MivoCloud SRL,MivoCloud SRL,Europe/Chisinau,1
+5.45.37.14,Germany,Internet Utilities Europe and Asia Limited,Hivelocity Inc,Europe/Berlin,1
+51.96.163.227,Switzerland,Amazon Technologies Inc,"Amazon.com, Inc.",Europe/Zurich,1
+64.252.103.10,Singapore,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Asia/Singapore,1
+64.252.104.222,Singapore,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Asia/Singapore,1
+64.252.104.223,Singapore,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Asia/Singapore,1
+64.252.104.27,Singapore,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Asia/Singapore,1
+64.252.106.113,Australia,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Australia/Sydney,1
+64.252.106.125,Australia,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Australia/Sydney,1
+64.252.106.127,Australia,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Australia/Sydney,1
+64.252.114.19,Ireland,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Europe/Dublin,1
+64.252.114.86,Ireland,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",Europe/Dublin,1
+64.252.72.230,United States,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",America/Los_Angeles,1
+64.252.72.65,United States,AWS CloudFront Origin Facing (GLOBAL),"Amazon.com, Inc.",America/Los_Angeles,1
+64.252.82.193,Error,Error,Error,Error,1
+64.252.83.153,Error,Error,Error,Error,1
+64.252.85.204,Error,Error,Error,Error,1
+64.252.86.84,Error,Error,Error,Error,1
+64.252.97.173,Error,Error,Error,Error,1
+64.44.118.179,Error,Error,Error,Error,1
+66.56.81.197,Error,Error,Error,Error,1
+67.213.113.74,Error,Error,Error,Error,1
+69.166.9.228,Error,Error,Error,Error,1
+69.50.95.81,Error,Error,Error,Error,1
+71.18.247.0,Error,Error,Error,Error,1
+72.163.220.25,Error,Error,Error,Error,1
+78.159.106.214,Error,Error,Error,Error,1
+80.246.31.83,Error,Error,Error,Error,1
+82.102.17.188,Spain,M247 LTD,M247 LTD Madrid Infrastructure,Europe/Madrid,1
+84.15.176.33,Lithuania,Bitemobile,"UAB ""Bite Lietuva""",Europe/Vilnius,1
+85.203.21.9,Singapore,VPN-Consumer-Network,EXPRESS,Asia/Singapore,1
+85.209.179.48,United States,,Simoresta UAB,America/Chicago,1
+86.105.185.50,United Kingdom,232web,Proper Support LLP,Europe/London,1
+88.204.42.34,Luxembourg,Yury Dolin,Ivanov Vitaliy Sergeevich,Europe/Luxembourg,1
+89.147.101.52,South Korea,Packethub S.A,PacketHub S.A.,Asia/Seoul,1
+91.132.227.18,United States,Josip Sabolek,Simoresta UAB,America/New_York,1
+91.226.72.90,Israel,Cloudwebmanage,O.M.C. COMPUTERS & COMMUNICATIONS LTD,Asia/Jerusalem,1
+91.93.70.6,Turkey,Odeninsaat,Superonline Iletisim Hizmetleri A.S.,Europe/Istanbul,1
+92.62.122.35,Ecuador,Cyberzone S.A,Cyberzone S.A.,America/Guayaquil,1
+93.185.162.14,Indonesia,Cyberzone S.A,Cyberzone S.A.,Asia/Jakarta,1
+94.198.41.250,Austria,M247 Vienna,M247 Europe SRL,Europe/Vienna,1
+95.158.48.158,Ukraine,"Company with additional responsibility """"BEST""","LIMITED LIABILITY COMPANY ""BEST SOLUTIONS""",Europe/Kyiv,1
+95.168.167.236,The Netherlands,LeaseWeb Netherlands B.V,LeaseWeb Netherlands B.V.,Europe/Amsterdam,1
